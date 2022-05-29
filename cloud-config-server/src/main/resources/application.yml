@@ -1,0 +1,12 @@
+server:
+  port: 9296
+
+spring:
+  application:
+    name: CONFIG-SEVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/avi20072008/config-server
+          clone-on-start: true
